@@ -9,7 +9,7 @@ import java.io.File;
  */
 public class Test {
     public static void main(String[] args) {
-        Path dataFilePath = new Path("/home/cangjingge/kn_dataplatform/dataplatform-service-engine/data_temp", taskDto.getTask_id() + ".txt");
+        Path dataFilePath = new Path("/home/cangjingge/kn_dataplatform/dataplatform-service-engine/data_temp", ".txt");
         File file = new File(dataFilePath.toUri().toString());
     }
 }

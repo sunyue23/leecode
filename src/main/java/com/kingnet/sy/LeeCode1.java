@@ -31,6 +31,7 @@ public class LeeCode1 {
             System.out.println(a[i]);
         }
     }
+    //答案
     public static int[] twoSum(int[] numbers, int target) {
         int[] result = new int[2];
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
